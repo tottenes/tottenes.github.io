@@ -73,6 +73,7 @@ h2 {
   color:darkred;
   text-shadow:.09375rem .09375rem .09375rem #000;
   font-family:'Alfa Slab One', Garamond, serif;
+  text-align: center;
   font-weight: normal;
 }
 
@@ -109,7 +110,6 @@ h5 {
   background-color: #333;
   color: #FFF;
   text-shadow:.09375rem .09375rem .09375rem #000;
-  font-family:'Alfa Slab One', Garamond, serif;
   text-align:center;
   font-weight: normal;
 }
@@ -123,16 +123,16 @@ section {
 p {
   margin: 1rem auto;
   padding: 0 1rem;
-  width: .9;
+  width: 90%;
   text-align: left;
 }
 
 /* Image & Figure */
 
 img {
-  width: 1;
+  width: 100%;
   margin: 0 auto;
-  max-width: 50;
+  max-width: 50rem;
 }
 
 figure {
@@ -147,7 +147,8 @@ figcaption {
 /* Footer */
 
 footer {
-  width: 2rem;
-  style: solid;
-  color: #333;
+  padding: 1rem;
+  border-top-width: 2rem;
+  border-top-style: solid;
+  border-top-color: #333;
 }
