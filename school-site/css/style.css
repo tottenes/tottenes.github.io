@@ -78,15 +78,15 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: JoesfinSlab, serif;
-    src: url(fonts/josefinslab-regular.tff);
+    font-family: JosefinSlab;
+    src: url(fonts/josefinslab-regular.tff) format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: Montserrat, sans-serif;
-    src: url(/fonts/montserrat-regular.tff);
+    font-family: Montserrat;
+    src: url(fonts/montserrat-regular.tff) format('truetype');
     font-style: normal;
     font-weight: normal;
 }
