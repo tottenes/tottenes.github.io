@@ -79,14 +79,14 @@ header, footer {
 
 @font-face {
     font-family: JosefinSlab;
-    src: url(fonts/josefinslab-regular.tff) format('truetype');
+    src: url('fonts/josefinslab-regular.tff') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url(fonts/montserrat-regular.tff) format('truetype');
+    src: url('fonts/montserrat-regular.tff') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
