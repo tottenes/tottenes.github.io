@@ -1,0 +1,146 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /*
+
+        Spacing
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+/*font import*/
+
+@font-face {
+
+}
+
+@font-face {
+
+}
+
+html {
+  font-size: ;
+  font-family: ;
+
+}
+
+body {
+
+}
+
+main {
+  margin: 0 auto;
+  padding: .25rem;
+
+}
+
+nav {
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  max-width: .25rem;
+}
+
+.subsection {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-column-gap: 1%;
+}
+
+.subsection figure {
+  padding: 0;
+  margin: 0;
+  background-color: #RED;
+}
+
+.subsection img {
+  font-size: .75rem;
+  padding: .75rem;
+}
+
+article {
+  width: 75%;
+}
+
+.article image{
+  float: left;
+  margin: 0 1rem 0 0;
+}
+
+.article image + p {
+  margin-top: 0;
+}
+
+aside {
+  clear: both;
+  width: 19%;
+  margin-left: 3%;
+  padding-left: 3%;
+  border-left: .0625rem solid #333;
+}
+
+aside p {
+  font-size: .75rem;
+  padding-bottom: 2rem;
+  border-bottom: .0625rem solid #333;
+}
+
+
+
+footer {
+  margin: 6rem auto;
+}
+
+footer :nth-child(2) {
+  text-align: right;
+}
